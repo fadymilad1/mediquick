@@ -1,0 +1,131 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Demo User",
+      "email": "demo@mediquick.com",
+      "password": "demo123",
+      "phone": "+1 555 0100"
+    },
+    {
+      "name": "Fady milad",
+      "email": "fadymilad155@gmail.com",
+      "password": "fadymilad155@gmail.com",
+      "phone": "01210033111",
+      "id": "TXQbch_ELmk"
+    },
+    {
+      "name": "micheal faddy",
+      "email": "micheal@gmail.com",
+      "password": "micheal@gmail.com",
+      "phone": "01210033111",
+      "id": "nCBjFo6flxE"
+    },
+    {
+      "name": "Pero fady",
+      "email": "pero@gmail.com",
+      "password": "pero@gmail.com",
+      "phone": "012111111111",
+      "id": "VzB3fWAijrc"
+    }
+  ],
+  "doctors": [
+    {
+      "id": "1",
+      "name": "Dr. Sarah Mitchell",
+      "specialty": "Cardiology",
+      "rating": 4.9,
+      "image": "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=400",
+      "about": "Board-certified cardiologist with 15 years of experience in preventive heart care and hypertension management.",
+      "availableTimes": [
+        "09:00",
+        "10:30",
+        "14:00"
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Dr. James Chen",
+      "specialty": "Dermatology",
+      "rating": 4.7,
+      "image": "https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?w=400",
+      "about": "Specializes in clinical dermatology, acne treatment, and skin cancer screening.",
+      "availableTimes": [
+        "08:30",
+        "11:00",
+        "13:00",
+        "16:00"
+      ]
+    },
+    {
+      "id": "3",
+      "name": "Dr. Emily Rodriguez",
+      "specialty": "Pediatrics",
+      "rating": 4.8,
+      "image": "https://images.unsplash.com/photo-1594824476967-48c8b964273f?w=400",
+      "about": "Caring pediatrician focused on child wellness, vaccinations, and developmental checkups.",
+      "availableTimes": [
+        "09:30",
+        "12:00",
+        "14:30",
+        "17:00"
+      ]
+    },
+    {
+      "id": "4",
+      "name": "Dr. Michael Okonkwo",
+      "specialty": "Orthopedics",
+      "rating": 4.6,
+      "image": "https://images.unsplash.com/photo-1622253692010-333f3da6031d?w=400",
+      "about": "Expert in sports injuries, joint replacement, and musculoskeletal rehabilitation.",
+      "availableTimes": [
+        "10:00",
+        "11:30",
+        "15:00",
+        "16:30"
+      ]
+    },
+    {
+      "id": "5",
+      "name": "Dr. Lisa Park",
+      "specialty": "General Practice",
+      "rating": 4.5,
+      "image": "https://images.unsplash.com/photo-1582750433449-648ed127bb54?w=400",
+      "about": "Family medicine physician providing comprehensive primary care for all ages.",
+      "availableTimes": [
+        "08:00",
+        "10:00",
+        "13:30",
+        "15:00",
+        "17:30"
+      ]
+    }
+  ],
+  "appointments": [
+    {
+      "doctorId": "1",
+      "date": "2026-05-16",
+      "time": "09:00",
+      "userId": "1",
+      "status": "scheduled",
+      "id": "jc--aWAAX_4"
+    },
+    {
+      "doctorId": "1",
+      "date": "2026-05-16",
+      "time": "09:00",
+      "userId": "1",
+      "status": "scheduled",
+      "id": "9I5kzPgHm3w"
+    },
+    {
+      "doctorId": "1",
+      "date": "2026-05-16",
+      "time": "15:30",
+      "userId": "TXQbch_ELmk",
+      "status": "scheduled",
+      "id": "TZv4R1Hk7e8"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
