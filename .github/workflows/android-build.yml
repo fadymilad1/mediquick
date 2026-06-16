@@ -25,11 +25,10 @@ jobs:
           java-version: '17'
 
       - name: Install dependencies
-        working-directory: MediQuick
         run: npm ci
 
       - name: Build APK
-        working-directory: MediQuick/android
+        working-directory: android
         run: |
           chmod +x ./gradlew
           ./gradlew assembleDebug
@@ -38,4 +37,4 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: app-debug.apk
-          path: MediQuick/android/app/build/outputs/apk/debug/app-debug.apk
+          path: android/app/build/outputs/apk/debug/app-debug.apk
